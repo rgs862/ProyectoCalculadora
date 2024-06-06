@@ -14,7 +14,11 @@ public class Calculadora {
             case "suma":
                 return numero1 + numero2;
             case "resta":
-                return numero1-numero2;
+                return numero1-numero2;            
+            case "multiplicar":
+                return numero1 * numero2;
+            case "dividir":
+                return numero1 / numero2;
             default:
                 return numero1 + numero2;
 
