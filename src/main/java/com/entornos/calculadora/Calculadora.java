@@ -13,7 +13,8 @@ public class Calculadora {
         switch (operacion) {
             case "suma":
                 return numero1 + numero2;
-
+            case "resta":
+                return numero1-numero2;
             default:
                 return numero1 + numero2;
 
